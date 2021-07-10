@@ -1,0 +1,39 @@
+#css {
+    animation: x 10000ms infinite alternate ease-in-out,
+      y 10000ms infinite alternate ease-in-out;
+    background: hsl(173, 80%, 80%);
+  }
+  @keyframes x {
+    from {
+      transform: translateX(0vw);
+    }
+    to {
+      transform: translateX(20vw);
+    }
+  }
+  @keyframes y {
+    from {
+      transform: translateX(0vh);
+    }
+    to {
+      transform: translateY(20vh);
+    }
+  }
+  
+  div {
+    width: 20vmin;
+    height: 20vmin;
+    background: hsl(343, 80%, 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vmin;
+    padding: 0.5vmin;
+  }
+  
+  body {
+    display: flex;
+    gap: 2vmin;
+    background: #16161c;
+  }

@@ -1,0 +1,24 @@
+.navbarmenu ul {
+    padding: 2%;
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbarmenu  li {
+    display: inline-flex;
+    padding-left: 2%;
+}
+.navbarmenu .me
+ {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbarmenu .menu__link:hover {
+    background: #333;
+    color: #fff;
+    transition: ease 0.3s all;
+}
